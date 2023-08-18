@@ -1,0 +1,16 @@
+#drop_zone {
+  border: 5px solid aquamarine;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  text-align: center;
+  background-color: lightgray;
+  margin: auto;
+  width: 300px;
+}

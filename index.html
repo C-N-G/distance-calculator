@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Distance Calculator</title>
+  </head>
+  <body>
+    <div id="text_zone">
+      <h2>Distance Calculator</h2>
+      <p id="help_text">Please input data file</p>
+    </div>
+    <div id="data_zone">
+      <form id="event_form">
+        <input id="coords" type=text>
+        <input type="submit">
+      </form>
+      <!-- <h3 id="text"></h3> -->
+      <ol id="list"></ol>
+    </div>
+    <div id="drop_zone">
+      <p>Drop CSV file here</p>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
