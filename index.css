@@ -14,3 +14,9 @@ body {
   margin: auto;
   width: 300px;
 }
+
+.search-name {
+  margin: 3px;
+}
+
+#map { height: 180px; }

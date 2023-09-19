@@ -15,14 +15,24 @@
     </div>
     <div id="data_zone">
       <form id="event_form">
-        <input id="coords" type=text>
+        <input id="coords" type=text placeholder="Coordinates">
         <input type="submit">
       </form>
+      <br>
+      <form id="search_form">
+        <input id="search" type=text placeholder="Enter a name">
+        <input type="submit" value="Search">
+        <button id="clear_search">Clear</button>
+      </form>
+      <div id="search_list"></div>
       <!-- <h3 id="text"></h3> -->
       <ol id="list"></ol>
     </div>
     <div id="drop_zone">
       <p>Drop CSV file here</p>
+    </div>
+    <div id="map_container">
+
     </div>
     <script src="./renderer.js"></script>
   </body>
